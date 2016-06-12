@@ -1,0 +1,15 @@
+﻿  Panel.cpp
+Panel.obj : error LNK2001: unresolved external symbol "public: __thiscall Widget::~Widget(void)" (??1Widget@@QAE@XZ)
+Panel.obj : error LNK2001: unresolved external symbol "public: bool __thiscall Widget::CheckPosition(int,int)const " (?CheckPosition@Widget@@QBE_NHH@Z)
+Panel.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Widget::SetLayer(int)" (?SetLayer@Widget@@UAEXH@Z)
+Panel.obj : error LNK2001: unresolved external symbol "public: int __thiscall Widget::GetLayer(void)" (?GetLayer@Widget@@QAEHXZ)
+Panel.obj : error LNK2001: unresolved external symbol "public: static void __cdecl Widget::SetFocus(class Widget &)" (?SetFocus@Widget@@SAXAAV1@@Z)
+Panel.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Widget::Draw(class Graphics,int,int,int)" (?Draw@Widget@@UAEXVGraphics@@HHH@Z)
+Panel.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Widget::SetText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?SetText@Widget@@UAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Panel.obj : error LNK2001: unresolved external symbol "public: void __thiscall Widget::SetY(int)" (?SetY@Widget@@QAEXH@Z)
+Panel.obj : error LNK2001: unresolved external symbol "public: int __thiscall Widget::GetY(void)" (?GetY@Widget@@QAEHXZ)
+Panel.obj : error LNK2001: unresolved external symbol "public: void __thiscall Widget::SetX(int)" (?SetX@Widget@@QAEXH@Z)
+Panel.obj : error LNK2001: unresolved external symbol "public: int __thiscall Widget::GetX(void)" (?GetX@Widget@@QAEHXZ)
+Panel.obj : error LNK2001: unresolved external symbol "public: __thiscall Widget::Widget(int,int)" (??0Widget@@QAE@HH@Z)
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol _main
+C:\Users\user\Desktop\Widget\Widget\Widget\Release\Panel.exe : fatal error LNK1120: 13 unresolved externals

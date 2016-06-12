@@ -1,0 +1,16 @@
+﻿  ComboBox.cpp
+ComboBox.obj : error LNK2001: unresolved external symbol "public: int __cdecl Widget::GetLayer(void)" (?GetLayer@Widget@@QEAAHXZ)
+ComboBox.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Widget::Draw(class Graphics,int,int,int)" (?Draw@Widget@@UEAAXVGraphics@@HHH@Z)
+ComboBox.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Widget::SetText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?SetText@Widget@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+ComboBox.obj : error LNK2001: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Widget::GetText(void)" (?GetText@Widget@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+ComboBox.obj : error LNK2001: unresolved external symbol "public: int __cdecl Widget::GetY(void)" (?GetY@Widget@@QEAAHXZ)
+ComboBox.obj : error LNK2001: unresolved external symbol "public: int __cdecl Widget::GetX(void)" (?GetX@Widget@@QEAAHXZ)
+ComboBox.obj : error LNK2001: unresolved external symbol "public: void __cdecl Widget::SetHeight(int)" (?SetHeight@Widget@@QEAAXH@Z)
+ComboBox.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Panel::SetLayer(int)" (?SetLayer@Panel@@UEAAXH@Z)
+ComboBox.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Panel::Draw(class Graphics,int,int,int)" (?Draw@Panel@@UEAAXVGraphics@@HHH@Z)
+ComboBox.obj : error LNK2001: unresolved external symbol "public: __cdecl LabelContainer::~LabelContainer(void)" (??1LabelContainer@@QEAA@XZ)
+ComboBox.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl LabelContainer::OnFocusEvent(void)" (?OnFocusEvent@LabelContainer@@UEAAXXZ)
+ComboBox.obj : error LNK2001: unresolved external symbol "public: __cdecl LabelContainer::LabelContainer(int,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >,bool)" (??0LabelContainer@@QEAA@HV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@_N@Z)
+ComboBox.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl LabelContainer::AddItem(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)" (?AddItem@LabelContainer@@MEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol main
+C:\Users\user\Desktop\Widget\Widget\Widget\x64\Release\ComboBox.exe : fatal error LNK1120: 14 unresolved externals

@@ -1,0 +1,15 @@
+﻿  EventEngine.cpp
+EventEngine.obj : error LNK2001: unresolved external symbol "public: void __cdecl Graphics::setCursorVisibility(bool)" (?setCursorVisibility@Graphics@@QEAAX_N@Z)
+EventEngine.obj : error LNK2001: unresolved external symbol "public: void __cdecl Graphics::moveTo(int,int)" (?moveTo@Graphics@@QEAAXHH@Z)
+EventEngine.obj : error LNK2001: unresolved external symbol "public: void __cdecl Graphics::clearScreen(void)" (?clearScreen@Graphics@@QEAAXXZ)
+EventEngine.obj : error LNK2001: unresolved external symbol "public: __cdecl Graphics::Graphics(unsigned long)" (??0Graphics@@QEAA@K@Z)
+EventEngine.obj : error LNK2001: unresolved external symbol "public: void __cdecl Widget::GetAllControls(class std::vector<class Widget *,class std::allocator<class Widget *> > *)" (?GetAllControls@Widget@@QEAAXPEAV?$vector@PEAVWidget@@V?$allocator@PEAVWidget@@@std@@@std@@@Z)
+EventEngine.obj : error LNK2001: unresolved external symbol "public: static void __cdecl Widget::SetFocus(class Widget &)" (?SetFocus@Widget@@SAXAEAV1@@Z)
+EventEngine.obj : error LNK2001: unresolved external symbol "public: static class Widget * __cdecl Widget::GetFocus(void)" (?GetFocus@Widget@@SAPEAV1@XZ)
+EventEngine.obj : error LNK2001: unresolved external symbol "public: int __cdecl Widget::GetY(void)" (?GetY@Widget@@QEAAHXZ)
+EventEngine.obj : error LNK2001: unresolved external symbol "public: int __cdecl Widget::GetX(void)" (?GetX@Widget@@QEAAHXZ)
+EventEngine.obj : error LNK2001: unresolved external symbol "public: bool __cdecl Widget::GetEditable(void)" (?GetEditable@Widget@@QEAA_NXZ)
+EventEngine.obj : error LNK2001: unresolved external symbol "public: int __cdecl Widget::GetCursorPosition(void)" (?GetCursorPosition@Widget@@QEAAHXZ)
+EventEngine.obj : error LNK2001: unresolved external symbol "public: bool __cdecl Widget::GetFocusFlag(void)" (?GetFocusFlag@Widget@@QEAA_NXZ)
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol main
+C:\Users\user\Desktop\Widget\Widget\Widget\x64\Release\EventEngine.exe : fatal error LNK1120: 13 unresolved externals

@@ -1,0 +1,9 @@
+﻿  Label.cpp
+Label.obj : error LNK2019: unresolved external symbol "public: __cdecl Widget::Widget(int,int)" (??0Widget@@QEAA@HH@Z) referenced in function "public: __cdecl Label::Label(int)" (??0Label@@QEAA@H@Z)
+Label.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Widget::SetText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?SetText@Widget@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Label.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Widget::Draw(class Graphics,int,int,int)" (?Draw@Widget@@UEAAXVGraphics@@HHH@Z)
+Label.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Widget::OnFocusEvent(void)" (?OnFocusEvent@Widget@@UEAAXXZ)
+Label.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Widget::SetLayer(int)" (?SetLayer@Widget@@UEAAXH@Z)
+Label.obj : error LNK2019: unresolved external symbol "public: __cdecl Widget::~Widget(void)" (??1Widget@@QEAA@XZ) referenced in function "public: __cdecl Label::~Label(void)" (??1Label@@QEAA@XZ)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\user\Desktop\Widget\Widget\Widget\x64\Debug\Label.exe : fatal error LNK1120: 7 unresolved externals

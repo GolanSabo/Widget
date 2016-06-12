@@ -1,0 +1,11 @@
+﻿  EventEngine.cpp
+EventEngine.obj : error LNK2001: unresolved external symbol "public: void __thiscall Widget::GetAllControls(class std::vector<class Widget *,class std::allocator<class Widget *> > *)" (?GetAllControls@Widget@@QAEXPAV?$vector@PAVWidget@@V?$allocator@PAVWidget@@@std@@@std@@@Z)
+EventEngine.obj : error LNK2001: unresolved external symbol "public: static void __cdecl Widget::SetFocus(class Widget &)" (?SetFocus@Widget@@SAXAAV1@@Z)
+EventEngine.obj : error LNK2001: unresolved external symbol "public: static class Widget * __cdecl Widget::GetFocus(void)" (?GetFocus@Widget@@SAPAV1@XZ)
+EventEngine.obj : error LNK2001: unresolved external symbol "public: int __thiscall Widget::GetY(void)" (?GetY@Widget@@QAEHXZ)
+EventEngine.obj : error LNK2001: unresolved external symbol "public: int __thiscall Widget::GetX(void)" (?GetX@Widget@@QAEHXZ)
+EventEngine.obj : error LNK2001: unresolved external symbol "public: bool __thiscall Widget::GetEditable(void)" (?GetEditable@Widget@@QAE_NXZ)
+EventEngine.obj : error LNK2001: unresolved external symbol "public: int __thiscall Widget::GetCursorPosition(void)" (?GetCursorPosition@Widget@@QAEHXZ)
+EventEngine.obj : error LNK2001: unresolved external symbol "public: bool __thiscall Widget::GetFocusFlag(void)" (?GetFocusFlag@Widget@@QAE_NXZ)
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol _main
+C:\Users\user\Desktop\Widget\Widget\Widget\Release\EventEngine.exe : fatal error LNK1120: 9 unresolved externals

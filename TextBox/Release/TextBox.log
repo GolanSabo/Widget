@@ -1,0 +1,22 @@
+﻿  TextBox.cpp
+TextBox.cpp(22): warning C4018: '<': signed/unsigned mismatch
+TextBox.cpp(30): warning C4018: '<': signed/unsigned mismatch
+TextBox.cpp(48): warning C4018: '<': signed/unsigned mismatch
+TextBox.cpp(51): warning C4018: '<=': signed/unsigned mismatch
+TextBox.cpp(62): warning C4018: '<': signed/unsigned mismatch
+TextBox.obj : error LNK2001: unresolved external symbol "public: void __thiscall Graphics::moveTo(int,int)" (?moveTo@Graphics@@QAEXHH@Z)
+TextBox.obj : error LNK2001: unresolved external symbol "public: __thiscall Widget::~Widget(void)" (??1Widget@@QAE@XZ)
+TextBox.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Widget::SetLayer(int)" (?SetLayer@Widget@@UAEXH@Z)
+TextBox.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Widget::OnFocusEvent(void)" (?OnFocusEvent@Widget@@UAEXXZ)
+TextBox.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Widget::Draw(class Graphics,int,int,int)" (?Draw@Widget@@UAEXVGraphics@@HHH@Z)
+TextBox.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Widget::SetText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?SetText@Widget@@UAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+TextBox.obj : error LNK2001: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Widget::GetText(void)" (?GetText@Widget@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+TextBox.obj : error LNK2001: unresolved external symbol "public: int __thiscall Widget::GetX(void)" (?GetX@Widget@@QAEHXZ)
+TextBox.obj : error LNK2001: unresolved external symbol "public: int __thiscall Widget::GetWidth(void)" (?GetWidth@Widget@@QAEHXZ)
+TextBox.obj : error LNK2001: unresolved external symbol "public: void __thiscall Widget::SetEditable(bool)" (?SetEditable@Widget@@QAEX_N@Z)
+TextBox.obj : error LNK2001: unresolved external symbol "public: __thiscall Widget::Widget(int,int)" (??0Widget@@QAE@HH@Z)
+TextBox.obj : error LNK2001: unresolved external symbol "public: void __thiscall Widget::SetCursorPosition(int)" (?SetCursorPosition@Widget@@QAEXH@Z)
+TextBox.obj : error LNK2001: unresolved external symbol "public: int __thiscall Widget::GetCursorPosition(void)" (?GetCursorPosition@Widget@@QAEHXZ)
+TextBox.obj : error LNK2001: unresolved external symbol "public: void __thiscall Widget::SetFocusFlag(bool)" (?SetFocusFlag@Widget@@QAEX_N@Z)
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol _main
+C:\Users\user\Desktop\Widget\Widget\Widget\Release\TextBox.exe : fatal error LNK1120: 15 unresolved externals

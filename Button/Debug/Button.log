@@ -1,0 +1,3 @@
+﻿  Button.cpp
+c:\users\user\desktop\widget\widget\widget\button\button.cpp(18): warning C4018: '<': signed/unsigned mismatch
+  Button.vcxproj -> C:\Users\user\Desktop\Widget\Widget\Widget\Debug\Button.lib

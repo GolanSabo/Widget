@@ -1,0 +1,20 @@
+﻿  NumericBox.cpp
+NumericBox.obj : error LNK2001: unresolved external symbol "public: void __cdecl Button::AddListener(class MouseListener &)" (?AddListener@Button@@QEAAXAEAVMouseListener@@@Z)
+NumericBox.obj : error LNK2001: unresolved external symbol "public: __cdecl Button::Button(int)" (??0Button@@QEAA@H@Z)
+NumericBox.obj : error LNK2001: unresolved external symbol "public: __cdecl Widget::~Widget(void)" (??1Widget@@QEAA@XZ)
+NumericBox.obj : error LNK2001: unresolved external symbol "public: bool __cdecl Widget::CheckPosition(int,int)const " (?CheckPosition@Widget@@QEBA_NHH@Z)
+NumericBox.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Widget::SetText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?SetText@Widget@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+NumericBox.obj : error LNK2001: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Widget::GetText(void)" (?GetText@Widget@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+NumericBox.obj : error LNK2001: unresolved external symbol "public: int __cdecl Widget::GetY(void)" (?GetY@Widget@@QEAAHXZ)
+NumericBox.obj : error LNK2001: unresolved external symbol "public: int __cdecl Widget::GetX(void)" (?GetX@Widget@@QEAAHXZ)
+NumericBox.obj : error LNK2001: unresolved external symbol "public: int __cdecl Widget::GetWidth(void)" (?GetWidth@Widget@@QEAAHXZ)
+NumericBox.obj : error LNK2001: unresolved external symbol "public: __cdecl Panel::~Panel(void)" (??1Panel@@QEAA@XZ)
+NumericBox.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Panel::SetLayer(int)" (?SetLayer@Panel@@UEAAXH@Z)
+NumericBox.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Panel::OnFocusEvent(void)" (?OnFocusEvent@Panel@@UEAAXXZ)
+NumericBox.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Panel::Draw(class Graphics,int,int,int)" (?Draw@Panel@@UEAAXVGraphics@@HHH@Z)
+NumericBox.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Panel::KeyDown(int,char)" (?KeyDown@Panel@@UEAAXHD@Z)
+NumericBox.obj : error LNK2001: unresolved external symbol "public: void __cdecl Panel::AddWidget(class Widget &,int,int)" (?AddWidget@Panel@@QEAAXAEAVWidget@@HH@Z)
+NumericBox.obj : error LNK2001: unresolved external symbol "public: __cdecl Panel::Panel(int,int)" (??0Panel@@QEAA@HH@Z)
+NumericBox.obj : error LNK2001: unresolved external symbol "public: __cdecl Label::Label(int)" (??0Label@@QEAA@H@Z)
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol main
+C:\Users\user\Desktop\Widget\Widget\Widget\x64\Release\NumericBox.exe : fatal error LNK1120: 18 unresolved externals

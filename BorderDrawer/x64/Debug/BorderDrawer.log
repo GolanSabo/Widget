@@ -1,0 +1,4 @@
+﻿  BorderDrawer.cpp
+BorderDrawer.obj : error LNK2019: unresolved external symbol "public: void __cdecl Graphics::moveTo(int,int)" (?moveTo@Graphics@@QEAAXHH@Z) referenced in function "void __cdecl DrawFrame(class Graphics &,int,int,int,int,char *)" (?DrawFrame@@YAXAEAVGraphics@@HHHHPEAD@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\user\Desktop\Widget\Widget\Widget\x64\Debug\BorderDrawer.exe : fatal error LNK1120: 2 unresolved externals

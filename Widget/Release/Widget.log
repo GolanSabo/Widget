@@ -1,0 +1,4 @@
+﻿  Widget.cpp
+Widget.obj : error LNK2001: unresolved external symbol "void __cdecl DrawFrame(class Graphics &,int,int,int,int,char *)" (?DrawFrame@@YAXAAVGraphics@@HHHHPAD@Z)
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol _main
+C:\Users\user\Desktop\Widget\Widget\Widget\Release\Widget.exe : fatal error LNK1120: 2 unresolved externals

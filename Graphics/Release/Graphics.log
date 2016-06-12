@@ -1,0 +1,3 @@
+﻿  Graphics.cpp
+Graphics.cpp(97): warning C4244: 'argument': conversion from 'DWORD' to 'WORD', possible loss of data
+  Graphics.vcxproj -> C:\Users\user\Desktop\Widget\Widget\Widget\Release\Graphics.lib

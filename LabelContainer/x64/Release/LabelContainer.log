@@ -1,0 +1,17 @@
+﻿  LabelContainer.cpp
+LabelContainer.cpp(16): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: __cdecl Widget::~Widget(void)" (??1Widget@@QEAA@XZ)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Widget::SetText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?SetText@Widget@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: void __cdecl Widget::SetHeight(int)" (?SetHeight@Widget@@QEAAXH@Z)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: void __cdecl Widget::SetFocusFlag(bool)" (?SetFocusFlag@Widget@@QEAAX_N@Z)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: __cdecl Panel::~Panel(void)" (??1Panel@@QEAA@XZ)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Panel::SetLayer(int)" (?SetLayer@Panel@@UEAAXH@Z)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Panel::OnFocusEvent(void)" (?OnFocusEvent@Panel@@UEAAXXZ)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Panel::Draw(class Graphics,int,int,int)" (?Draw@Panel@@UEAAXVGraphics@@HHH@Z)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Panel::KeyDown(int,char)" (?KeyDown@Panel@@UEAAXHD@Z)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Panel::MousePressed(int,int,bool)" (?MousePressed@Panel@@UEAAXHH_N@Z)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: void __cdecl Panel::AddWidget(class Widget &,int,int)" (?AddWidget@Panel@@QEAAXAEAVWidget@@HH@Z)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: __cdecl Panel::Panel(int,int)" (??0Panel@@QEAA@HH@Z)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: __cdecl Label::Label(int)" (??0Label@@QEAA@H@Z)
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol main
+C:\Users\user\Desktop\Widget\Widget\Widget\x64\Release\LabelContainer.exe : fatal error LNK1120: 14 unresolved externals

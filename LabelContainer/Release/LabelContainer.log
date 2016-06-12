@@ -1,0 +1,21 @@
+﻿  LabelContainer.cpp
+LabelContainer.cpp(8): warning C4018: '<': signed/unsigned mismatch
+LabelContainer.cpp(19): warning C4018: '<': signed/unsigned mismatch
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: __thiscall Widget::~Widget(void)" (??1Widget@@QAE@XZ)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Widget::SetText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?SetText@Widget@@UAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: void __thiscall Widget::SetHeight(int)" (?SetHeight@Widget@@QAEXH@Z)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: void __thiscall Widget::SetFocusFlag(bool)" (?SetFocusFlag@Widget@@QAEX_N@Z)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: __thiscall Panel::~Panel(void)" (??1Panel@@QAE@XZ)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Panel::SetLayer(int)" (?SetLayer@Panel@@UAEXH@Z)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Panel::OnFocusEvent(void)" (?OnFocusEvent@Panel@@UAEXXZ)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Panel::Draw(class Graphics,int,int,int)" (?Draw@Panel@@UAEXVGraphics@@HHH@Z)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Panel::KeyDown(int,char)" (?KeyDown@Panel@@UAEXHD@Z)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Panel::MousePressed(int,int,bool)" (?MousePressed@Panel@@UAEXHH_N@Z)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: void __thiscall Panel::AddWidget(class Widget &,int,int)" (?AddWidget@Panel@@QAEXAAVWidget@@HH@Z)
+LabelContainer.obj : error LNK2001: unresolved external symbol "public: __thiscall Panel::Panel(int,int)" (??0Panel@@QAE@HH@Z)
+Label.lib(Label.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall Widget::SetLayer(int)" (?SetLayer@Widget@@UAEXH@Z)
+Label.lib(Label.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall Widget::OnFocusEvent(void)" (?OnFocusEvent@Widget@@UAEXXZ)
+Label.lib(Label.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall Widget::Draw(class Graphics,int,int,int)" (?Draw@Widget@@UAEXVGraphics@@HHH@Z)
+Label.lib(Label.obj) : error LNK2001: unresolved external symbol "public: __thiscall Widget::Widget(int,int)" (??0Widget@@QAE@HH@Z)
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol _main
+C:\Users\user\Desktop\Widget\Widget\Widget\Release\LabelContainer.exe : fatal error LNK1120: 17 unresolved externals

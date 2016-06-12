@@ -1,0 +1,13 @@
+﻿  CheckList.cpp
+CheckList.cpp(12): warning C4018: '<': signed/unsigned mismatch
+CheckList.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Widget::SetText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?SetText@Widget@@UAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+CheckList.obj : error LNK2001: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Widget::GetText(void)" (?GetText@Widget@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+CheckList.obj : error LNK2001: unresolved external symbol "public: int __thiscall Widget::GetY(void)" (?GetY@Widget@@QAEHXZ)
+CheckList.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Panel::SetLayer(int)" (?SetLayer@Panel@@UAEXH@Z)
+CheckList.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Panel::Draw(class Graphics,int,int,int)" (?Draw@Panel@@UAEXVGraphics@@HHH@Z)
+CheckList.obj : error LNK2001: unresolved external symbol "public: __thiscall LabelContainer::~LabelContainer(void)" (??1LabelContainer@@QAE@XZ)
+CheckList.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall LabelContainer::OnFocusEvent(void)" (?OnFocusEvent@LabelContainer@@UAEXXZ)
+CheckList.obj : error LNK2001: unresolved external symbol "public: __thiscall LabelContainer::LabelContainer(int,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >,bool)" (??0LabelContainer@@QAE@HV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@_N@Z)
+CheckList.obj : error LNK2001: unresolved external symbol "protected: virtual void __thiscall LabelContainer::AddItem(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)" (?AddItem@LabelContainer@@MAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol _main
+C:\Users\user\Desktop\Widget\Widget\Widget\Release\CheckList.exe : fatal error LNK1120: 10 unresolved externals

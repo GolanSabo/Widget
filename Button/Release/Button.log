@@ -1,0 +1,10 @@
+﻿  Button.cpp
+Button.cpp(18): warning C4018: '<': signed/unsigned mismatch
+Button.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Widget::SetLayer(int)" (?SetLayer@Widget@@UAEXH@Z)
+Button.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Widget::OnFocusEvent(void)" (?OnFocusEvent@Widget@@UAEXXZ)
+Button.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Widget::Draw(class Graphics,int,int,int)" (?Draw@Widget@@UAEXVGraphics@@HHH@Z)
+Button.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Widget::SetText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?SetText@Widget@@UAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Label.lib(Label.obj) : error LNK2001: unresolved external symbol "public: __thiscall Widget::~Widget(void)" (??1Widget@@QAE@XZ)
+Label.lib(Label.obj) : error LNK2001: unresolved external symbol "public: __thiscall Widget::Widget(int,int)" (??0Widget@@QAE@HH@Z)
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol _main
+C:\Users\user\Desktop\Widget\Widget\Widget\Release\Button.exe : fatal error LNK1120: 7 unresolved externals

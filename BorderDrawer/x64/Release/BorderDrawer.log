@@ -1,0 +1,4 @@
+﻿  BorderDrawer.cpp
+BorderDrawer.obj : error LNK2001: unresolved external symbol "public: void __cdecl Graphics::moveTo(int,int)" (?moveTo@Graphics@@QEAAXHH@Z)
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol main
+C:\Users\user\Desktop\Widget\Widget\Widget\x64\Release\BorderDrawer.exe : fatal error LNK1120: 2 unresolved externals

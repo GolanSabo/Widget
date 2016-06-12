@@ -1,0 +1,7 @@
+﻿  Widget.cpp
+Widget.obj : error LNK2001: unresolved external symbol "public: void __cdecl Graphics::write(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?write@Graphics@@QEAAXHHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Widget.obj : error LNK2001: unresolved external symbol "public: void __cdecl Graphics::setForeground(enum Color)" (?setForeground@Graphics@@QEAAXW4Color@@@Z)
+Widget.obj : error LNK2001: unresolved external symbol "public: void __cdecl Graphics::setBackground(enum Color)" (?setBackground@Graphics@@QEAAXW4Color@@@Z)
+Widget.obj : error LNK2001: unresolved external symbol "void __cdecl DrawFrame(class Graphics &,int,int,int,int,char *)" (?DrawFrame@@YAXAEAVGraphics@@HHHHPEAD@Z)
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol main
+C:\Users\user\Desktop\Widget\Widget\Widget\x64\Release\Widget.exe : fatal error LNK1120: 5 unresolved externals

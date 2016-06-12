@@ -1,0 +1,12 @@
+﻿  RadioList.cpp
+RadioList.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Widget::SetText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?SetText@Widget@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+RadioList.obj : error LNK2001: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Widget::GetText(void)" (?GetText@Widget@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+RadioList.obj : error LNK2001: unresolved external symbol "public: int __cdecl Widget::GetY(void)" (?GetY@Widget@@QEAAHXZ)
+RadioList.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Panel::SetLayer(int)" (?SetLayer@Panel@@UEAAXH@Z)
+RadioList.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Panel::Draw(class Graphics,int,int,int)" (?Draw@Panel@@UEAAXVGraphics@@HHH@Z)
+RadioList.obj : error LNK2001: unresolved external symbol "public: __cdecl LabelContainer::~LabelContainer(void)" (??1LabelContainer@@QEAA@XZ)
+RadioList.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl LabelContainer::OnFocusEvent(void)" (?OnFocusEvent@LabelContainer@@UEAAXXZ)
+RadioList.obj : error LNK2001: unresolved external symbol "public: __cdecl LabelContainer::LabelContainer(int,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >,bool)" (??0LabelContainer@@QEAA@HV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@_N@Z)
+RadioList.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl LabelContainer::AddItem(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)" (?AddItem@LabelContainer@@MEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol main
+C:\Users\user\Desktop\Widget\Widget\Widget\x64\Release\RadioList.exe : fatal error LNK1120: 10 unresolved externals

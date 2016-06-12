@@ -1,0 +1,4 @@
+﻿  LabelContainer.cpp
+c:\users\user\desktop\widget\widget\widget\labelcontainer\labelcontainer.cpp(8): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\desktop\widget\widget\widget\labelcontainer\labelcontainer.cpp(19): warning C4018: '<': signed/unsigned mismatch
+  LabelContainer.vcxproj -> C:\Users\user\Desktop\Widget\Widget\Widget\Debug\LabelContainer.lib
